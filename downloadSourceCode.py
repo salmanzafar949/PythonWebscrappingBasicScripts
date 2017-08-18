@@ -3,6 +3,7 @@ import  re
 
 urls = ["https://www.google.com","http://www.bbc.com/news","https://stackoverflow.com/"]
 i=0
+## regular exoression to download titles of website
 regex = '<title>(.+?)</title>'
 pattern = re.compile(regex)
 while i < len(urls):
